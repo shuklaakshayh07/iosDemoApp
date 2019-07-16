@@ -26,4 +26,11 @@
 }
 
 
+- (IBAction)setTitleLabel:(id)sender {
+    [myTitleLabel setText:@"Hello"];
+}
+
+- (IBAction)toggleForLabel:(id)sender {
+    [myTitleLabel setText:@"Hello2"];
+}
 @end

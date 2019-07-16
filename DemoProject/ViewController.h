@@ -9,6 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    
+    IBOutlet UILabel *myTitleLabel;
+    IBOutletCollection(UIImageView) NSArray *Dice1;
+}
+- (IBAction)setTitleLabel:(id)sender;
+- (IBAction)toggleForLabel:(id)sender;
+
 
 
 @end

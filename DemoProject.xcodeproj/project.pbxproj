@@ -103,6 +103,7 @@
 		3E9656E222D71C5A00F6CE6A /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				3E96571A22D7205900F6CE6A /* model */,
 				3E9656E322D71C5A00F6CE6A /* AppDelegate.h */,
 				3E9656E422D71C5A00F6CE6A /* AppDelegate.m */,
 				3E9656E622D71C5A00F6CE6A /* ViewController.h */,
@@ -133,6 +134,13 @@
 				3E96570C22D71C5D00F6CE6A /* Info.plist */,
 			);
 			path = DemoProjectUITests;
+			sourceTree = "<group>";
+		};
+		3E96571A22D7205900F6CE6A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
